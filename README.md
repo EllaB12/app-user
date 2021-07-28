@@ -14,7 +14,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ### Clone the repo
 
 ```shell
-git clone 
+git clone https://github.com/EllaB12/app-user.git
 
 ```
 
