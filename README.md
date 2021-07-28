@@ -1,7 +1,7 @@
 # UserApp
 User management App that store users profile data. 
 
-1) Visitor can not access pages except Login page (using AuthGuard)
+1) Visitor can't access pages, except the Login page (using AuthGuard)
 2) The data is stored in session storage, and only after the user logs in
 3) The application is responsive
 
