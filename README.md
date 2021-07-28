@@ -5,6 +5,10 @@ User management App that store users profile data.
 2) The data is stored in session storage, and only after the user logs in
 3) The application is responsive
 
+Desktop screen:
+[![image](https://www.linkpicture.com/q/screencapture-localhost-4200-users-2021-07-28-23_03_35.png)](https://www.linkpicture.com/view.php?img=LPic6101ba5ee591f755353979)
+
+Mobile screen:
 [![image](https://www.linkpicture.com/q/screencapture-localhost-4200-users-2021-07-28-23_03_35.png)](https://www.linkpicture.com/view.php?img=LPic6101ba5ee591f755353979)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.2.
