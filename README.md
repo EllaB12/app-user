@@ -7,8 +7,24 @@ User management App that store users profile data.
 
 [![image](https://www.linkpicture.com/q/screencapture-localhost-4200-users-2021-07-28-23_03_35.png)](https://www.linkpicture.com/view.php?img=LPic6101ba5ee591f755353979)
 
-
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.2.
+
+## Get started
+
+### Clone the repo
+
+```shell
+git clone 
+
+```
+
+### Install npm packages
+
+Install the `npm` packages described in the `package.json` and verify that it works:
+
+```shell
+npm install
+npm start
 
 ## Development server
 
