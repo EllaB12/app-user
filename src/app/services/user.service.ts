@@ -56,7 +56,7 @@ export class UserService {
   }
 
   logout(): void {
-    this.remove('userDB');
+    this.remove();
     return this._user$.next({});
   }
 
@@ -73,7 +73,7 @@ export class UserService {
     return JSON.parse(value);
   }
 
-  private remove(key: string) {
-    sessionStorage.removeItem(key);
+  private remove() {
+    sessionStorage.clear();
   }
 }

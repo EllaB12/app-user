@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { UserService } from '../../services/user.service';
 import { Contact } from '../../models/contact.model';
 import { Subscription } from 'rxjs';
-import { ContactService } from 'src/app/services/contact.service';
 
 @Component({
   selector: 'main-layout',
@@ -15,7 +14,6 @@ export class MainLayoutComponent implements OnInit {
 
   constructor(
     private userService: UserService,
-    private contactService: ContactService 
   ) { }
 
   ngOnInit(): void {
