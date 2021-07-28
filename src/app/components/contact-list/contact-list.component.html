@@ -1,0 +1,7 @@
+<section *ngIf="contacts">
+    <ul>
+        <li *ngFor="let contact of contacts">
+            <contact-preview [contact]="contact" (onSelectContact)="selectContact($event)" [active]="contact.id === selectedId"></contact-preview>
+        </li>
+    </ul>
+</section>

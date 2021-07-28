@@ -1,0 +1,13 @@
+<section class="contact-page">
+    <div class="contact-list-container">
+        <div class="contact-list-content">
+            <h1>Users</h1>
+            <div class="page-info">
+                If you want to get contact information to specific user,
+                just select group and then select him from the list
+            </div>
+        </div>
+        <contact-list [contacts]="contacts" (onSelectContact)="displayContact($event)"></contact-list>
+    </div>
+    <contact-info [contact]="selectedContact"></contact-info>
+</section>

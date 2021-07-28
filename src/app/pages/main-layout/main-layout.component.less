@@ -1,0 +1,31 @@
+.main-layout-container {
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-template-rows: 60px auto;
+    height: 100vh;
+}
+
+app-header {
+    grid-column: 2/-1;
+    grid-row: 1/2;
+}
+
+main-navbar {
+    grid-column: 1/2;
+    grid-row: 1/-1;
+}
+
+.content {
+    grid-column: 2/-1;
+    grid-row: 2/-1;
+}
+
+@media only screen and (max-width: 768px) {
+    main-navbar {
+        grid-row: 1/2;
+    }
+    
+    .content {
+        grid-column: 1/-1;
+    }
+}

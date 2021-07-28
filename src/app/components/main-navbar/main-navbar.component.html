@@ -1,0 +1,47 @@
+<div class="main-navbar-container">  
+    <div *ngIf="user && !isUserEmpty()" class="user-avatar-container">
+        <img class="user-avatar user-avatar-l" [src]="user.avatar">
+        <div class="user-name">{{fullName}}</div>
+        <div class="user-position">Teacher</div>
+    </div>
+    <div *ngIf="isUserEmpty()" class="user-avatar-container">
+        <img class="user-avatar user-avatar-l" src="assets/svg/default-avatar.svg">
+        <span class="signin-info">Have an account?</span>
+        <a class="signin-link" routerLink="/login">Sign in</a>
+    </div>
+    <ul class="nav-menu" [ngClass]="{'active': toggle}" [ngClass]="{'hide': offsetFlag}">
+        <li>
+            <img class="navbar-icon" src="assets/svg/dashboard.svg">
+            <a>Dashboard</a>
+        </li>
+        <li>
+            <img class="navbar-icon" src="assets/svg/files.svg">
+            <a>Files</a>
+        </li>
+        <li>
+            <img class="navbar-icon" src="assets/svg/news.svg">
+            <a>News</a>
+        </li>
+        <li class="active-link">
+            <img class="navbar-icon" src="assets/svg/users.svg">
+            <a [routerLink]="['/users']">Users</a>
+        </li>
+        <li>
+            <img class="navbar-icon" src="assets/svg/faq.svg">
+            <a>FAQ</a>
+        </li>
+        <li>
+            <img class="navbar-icon" src="assets/svg/help.svg">
+            <a>Help</a>
+        </li>
+        <li>
+            <img class="navbar-icon" src="assets/svg/settings.svg">
+            <a>Settings</a>
+        </li>
+    </ul>
+    <div (click)="mobileMenu()" class="hamburger" [ngClass]="{'active': toggle}"> 
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+</div>

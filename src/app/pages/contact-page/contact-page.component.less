@@ -1,0 +1,35 @@
+@import '../../styles/variables.less';
+
+.contact-page {
+    display: flex;
+}
+
+.contact-list-container {
+    padding: 20px 50px;
+}
+
+h1 {
+    color: @clr7;
+    font-size: 16px;
+}
+
+.page-info {
+    font-size: 14px;
+    color: @clr6;
+    padding-bottom: 40px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .contact-page {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .contact-list-container {
+        padding: 20px 15px;
+    }
+
+    .contact-list-content {
+        display: none;
+    }
+}

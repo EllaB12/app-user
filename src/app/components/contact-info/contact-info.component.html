@@ -1,0 +1,19 @@
+<section *ngIf="contact" class="contact-info-container">
+    <div class="contact-background" [ngStyle]="{'backgroundImage': getBackgroundUrl()}">
+        <div class="blur"></div>
+        <div class="contact-avatar-container">
+            <img class="user-avatar user-avatar-xl" [src]="contact.avatar">
+            <div class="contact-name">{{fullName}}</div>
+        </div>
+    </div>
+    <div class="contact-data-container">
+        <div class="contact-id">
+            <span class="title">id</span>
+            <span>{{contact.id}}</span>
+        </div>
+        <div class="contact-email">
+            <span class="title">Email Address</span>
+            <span>{{contact.email}}</span>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,17 @@
+@import './variables.less';
+
+@avatar-names: s, m, l, xl;
+@avatar-size: 25px, 50px, 100px, 150px;
+
+.user-avatar {
+    border-radius: 50%;
+    border: 2px solid @clr3;
+    
+    each(@avatar-size, {
+        @name: extract(@avatar-names, @index);
+        &-@{name} {
+            height: @value;
+            width: @value;
+        }
+    })
+}

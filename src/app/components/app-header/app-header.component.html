@@ -1,0 +1,15 @@
+<div class="app-header-container">
+    <ul>
+        <li>
+            <a>
+                <img class="header-icon" src="assets/svg/language.svg">
+                <span>English</span>
+            </a>
+        </li>
+        <li *ngIf="!isUserEmpty()">
+            <a (click)="logout()"> 
+                <img class="header-icon logout-icon" src="assets/svg/logout.svg">
+            </a>
+        </li>
+    </ul>
+</div>
