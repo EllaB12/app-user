@@ -9,7 +9,7 @@ Desktop screen:
 [![image](https://www.linkpicture.com/q/screencapture-localhost-4200-users-2021-07-28-23_03_35.png)](https://www.linkpicture.com/view.php?img=LPic6101ba5ee591f755353979)
 
 Mobile screen:
-[![image](https://www.linkpicture.com/q/screencapture-localhost-4200-users-2021-07-28-23_03_35.png)](https://www.linkpicture.com/view.php?img=LPic6101ba5ee591f755353979)
+[![image](https://www.linkpicture.com/q/screencapture-localhost-4200-users-2021-07-28-23_16_08.png)](https://www.linkpicture.com/view.php?img=LPic6101bb78b82581462447524)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.2.
 
