@@ -1,27 +1,29 @@
 # UserApp
+User management App that store users profile data. 
+
+1) Visitor can't access pages, except the Login page (using AuthGuard)
+2) The data is stored in session storage, and only after the user logs in
+3) The application is responsive
+
+[![image](https://www.linkpicture.com/q/screencapture-localhost-4200-users-2021-07-28-23_03_35.png)](https://www.linkpicture.com/view.php?img=LPic6101ba5ee591f755353979)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.2.
 
-## Development server
+## Get started
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Clone the repo
 
-## Code scaffolding
+```shell
+git clone https://github.com/EllaB12/app-user.git
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```
 
-## Build
+### Install npm packages
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Install the `npm` packages described in the `package.json` and verify that it works:
 
-## Running unit tests
+```shell
+npm install
+npm start
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```
