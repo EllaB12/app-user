@@ -1,0 +1,47 @@
+<section class="add-contact-container">
+    <h1 class="add-contact-title">Add New Contact</h1>
+    <form novalidate #addContactForm="ngForm" (ngSubmit)="save(addContactForm)">
+        <div class="form-group">
+            <input class="form-control"
+                    id="emailId"
+                    type="text"
+                    required
+                    [(ngModel)]="contact.email"
+                    name="email"
+                    placeholder="Email"/>
+        </div>
+
+        <div class="form-group">
+            <input class="form-control"
+                    id="firstNameId"
+                    type="string"
+                    required
+                    [(ngModel)]="contact.first_name"
+                    name="firstName"
+                    placeholder="First Name"/>
+        </div>
+
+        <div class="form-group">
+            <input class="form-control"
+                    id="lastNameId"
+                    type="string"
+                    required
+                    [(ngModel)]="contact.last_name"
+                    name="lastName"
+                    placeholder="Last Name"/>
+        </div>
+
+        <div class="form-group">
+            <input class="form-control"
+                    id="avatarId"
+                    type="string"
+                    [(ngModel)]="contact.avatar"
+                    name="avatar"
+                    placeholder="Your Image Url"/>
+        </div>
+
+        <button class="save-btn" type="submit" [disabled]="!addContactForm.valid">
+            Add
+        </button>
+    </form>
+</section>

@@ -23,6 +23,8 @@ export class ContactPageComponent implements OnInit {
         this.contacts = contacts;
         this.selectedContact = this.contacts[0]
     });
+
+    this.contactService.addContact({'email': 'ella@gmail.com'});
   }
 
   ngOnDestroy() {

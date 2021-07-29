@@ -8,6 +8,7 @@
             </div>
         </div>
         <contact-list [contacts]="contacts" (onSelectContact)="selectContact($event)"></contact-list>
+        <button class="add-user-btn" routerLink="/user">Add New Contact</button>
     </div>
     <contact-info [contact]="selectedContact"></contact-info>
 </section>

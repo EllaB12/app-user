@@ -13,6 +13,7 @@ import { MainNavbarComponent } from './components/main-navbar/main-navbar.compon
 import { MainLayoutComponent } from './pages/main-layout/main-layout.component';
 import { AppHeaderComponent } from './components/app-header/app-header.component';
 import { LoginPageComponent } from './pages/login-page/login-page.component';
+import { AddContactPageComponent } from './pages/add-contact-page/add-contact-page.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { LoginPageComponent } from './pages/login-page/login-page.component';
     MainNavbarComponent,
     MainLayoutComponent,
     AppHeaderComponent,
-    LoginPageComponent
+    LoginPageComponent,
+    AddContactPageComponent
   ],
   imports: [
     BrowserModule,
