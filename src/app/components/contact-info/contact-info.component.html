@@ -2,7 +2,8 @@
     <div class="contact-background" [ngStyle]="{'backgroundImage': getBackgroundUrl()}">
         <div class="blur"></div>
         <div class="contact-avatar-container">
-            <img class="user-avatar user-avatar-xl" [src]="contact.avatar">
+            <img *ngIf="contact.avatar" class="user-avatar user-avatar-xl" [src]="contact.avatar">
+            <img *ngIf="!contact.avatar" class="user-avatar user-avatar-xl" src="assets/blank-avatar-Image.jpg">
             <div class="contact-name">{{fullName}}</div>
         </div>
     </div>

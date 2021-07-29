@@ -21,6 +21,8 @@ export class ContactInfoComponent implements OnInit {
   getBackgroundUrl() {
     if (this.contact.avatar) {
       return `url(${this.contact.avatar})`
-    } else return null;
+    } else {
+      return `url('assets/blank-avatar-Image.jpg')`
+    };
   }
 }
