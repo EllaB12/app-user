@@ -3,8 +3,8 @@ User management App that store users profile data.
 
 The following is taken into account:
 1) Visitor can't access pages, except the Login page (using AuthGuard)
-2) The data is stored in session storage, and only after the user logs in
-3) The application is responsive
+2) The data is stored in session storage, and only after the user logs in.
+4) The application is responsive
 
 [![image](https://www.linkpicture.com/q/screencapture-localhost-4200-users-2021-07-28-23_03_35.png)](https://www.linkpicture.com/view.php?img=LPic6101ba5ee591f755353979)
 
