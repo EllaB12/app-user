@@ -7,7 +7,7 @@
                 just select group and then select him from the list
             </div>
         </div>
-        <contact-list [contacts]="contacts" (onSelectContact)="displayContact($event)"></contact-list>
+        <contact-list [contacts]="contacts" (onSelectContact)="selectContact($event)"></contact-list>
     </div>
     <contact-info [contact]="selectedContact"></contact-info>
 </section>

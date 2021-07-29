@@ -29,7 +29,7 @@ export class ContactPageComponent implements OnInit {
     this.sub.unsubscribe();
   }
 
-  displayContact(contact: Contact) {
+  selectContact(contact: Contact) {
     this.selectedContact = contact;
   }
 
