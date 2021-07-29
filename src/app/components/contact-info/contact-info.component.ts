@@ -22,7 +22,7 @@ export class ContactInfoComponent implements OnInit {
     if (this.contact.avatar) {
       return `url(${this.contact.avatar})`
     } else {
-      return `url('assets/blank-avatar-Image.jpg')`
+      return `url('assets/blank-avatar-image.jpg')`
     };
   }
 }
